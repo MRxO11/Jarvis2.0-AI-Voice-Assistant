@@ -118,7 +118,17 @@ ollama pull llama2
 ```
 Modify the assistant's response function to use ollama for AI-generated responses.
 
+## ☺️ Download Emotion Detection Model
+The project uses DistilRoBERTa for emotion detection. Install it with:
+```
+pip install transformers
+```
 
+The model will automatically download when first used:
+```
+from transformers import pipeline
+emotion_detector = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-
+```
 
 # **🛠 Troubleshooting**
 
