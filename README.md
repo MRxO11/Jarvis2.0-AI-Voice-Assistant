@@ -6,7 +6,7 @@ J.A.R.V.I.S (Just A Rather Very Intelligent System) is a powerful AI voice assis
 https://github.com/user-attachments/assets/85d514c2-4820-48e5-8507-bd786fc1fb35
 
 
-🚀 ##Features
+# **🚀 Features**
 
 🎙 Voice-Activated AI
 
@@ -52,7 +52,10 @@ Local Music Control: Play songs stored on your PC.
 Uses YOLOv8 to recognize objects in real-time.
 
 
-🛠 ##Installation
+
+
+# **🛠 Installation**
+
 
 1️⃣ Prerequisites
 
@@ -95,7 +98,10 @@ Add them in spotify_client_id, spotify_client_secret, and spotify_redirect_uri.
 python jarvis2.0-AI-Voice-Assistant.py
 ```
 
-🔧 ##Configuration
+
+
+# **🔧 Configuration**
+
 
 🎙 Wake Word Detection (Porcupine)
 Get a free Picovoice Access Key from Picovoice Console
@@ -112,7 +118,9 @@ ollama pull llama2
 ```
 Modify the assistant's response function to use ollama for AI-generated responses.
 
-🛠 ##Troubleshooting
+
+
+# **🛠 Troubleshooting**
 
 1. Wake word not detected?
 
